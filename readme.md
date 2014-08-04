@@ -21,11 +21,11 @@ This Laravel 4 package provides a variety of generators to speed up your develop
 
 ## Installation
 
-Begin by installing this package through Composer. Edit your project's `composer.json` file to require `dollar/generators`.
+Begin by installing this package through Composer. Edit your project's `composer.json` file to require `bankdev/generators`.
 
 	"require": {
 		"laravel/framework": "4.0.*",
-		"dollar/generators": "dev-master"
+		"bankdev/generators": "dev-master"
 	},
 	"minimum-stability" : "dev"
 
@@ -35,7 +35,7 @@ Next, update Composer from the Terminal:
 
 Once this operation completes, the final step is to add the service provider. Open `app/config/app.php`, and add a new item to the providers array.
 
-    'Dollar\Generators\GeneratorsServiceProvider'
+    'BankDev\Generators\GeneratorsServiceProvider'
 
 That's it! You're all set to go. Run the `artisan` command from the Terminal to see the new `generate` commands.
 
