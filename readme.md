@@ -24,7 +24,7 @@ This Laravel 4.2 package provides a variety of generators to speed up your devel
 Begin by installing this package through Composer. Edit your project's `composer.json` file to require `bankdev/generators`.
 
 	"require": {
-		"laravel/framework": "4.0.*",
+		"laravel/framework": "4.2.*",
 		"bankdev/generators": "dev-master"
 	},
 	"minimum-stability" : "dev"
